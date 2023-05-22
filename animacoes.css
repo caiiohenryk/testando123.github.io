@@ -1,0 +1,50 @@
+#logotexto:hover {
+    color: #ff5e00;
+    transition: 0.5s
+}
+#tenisheader:hover {
+    color: #ffe600;
+    transition: 0.5s;
+}
+#outletheader:hover {
+    color: #ffe600;
+    transition: 0.5s;
+}
+#masculinoheader:hover {
+    color: #ffe600;
+    transition: 0.5s;
+}
+#femininoheader:hover {
+    color: #ffe600;
+    transition: 0.5s;
+}
+#airmaxad:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+#vanssk8hiimg:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#adarrowr:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#adarrowl:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#adarrowrbottom:hover {
+    color: #ff5e00;
+    transform: scale(1.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#adarrowlbottom:hover {
+    color: #ff5e00;
+    transform: scale(1.5);
+    transition: 0.5s;
+    cursor: pointer;
+}

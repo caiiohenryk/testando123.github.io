@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaking - Tênis</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    rel="stylesheet"> <!-- link dos icones usados no site: -->
+    <link rel="stylesheet" href="tenispagestyle.css">
+    <link rel="stylesheet" href="animacoes.css">
+    <link rel="shortcut icon" href="Sneaking-logo.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav id="headleft">
+            <section class="mainnav">
+<!-- Botões do lado esquerdo da header, basicamente uma nav: -->
+                <a href="index.html"><span id="logotexto" class="navbuttons">Sneaking</span></a>
+                <a href="tenispage.html"><span id="tenisheader" class="navbuttons" >Tênis</span></a>
+                <a href=""><span id="outletheader" class="navbuttons" >Outlet</span></a>
+                <a href=""><span id="masculinoheader" class="navbuttons" >Masculino</span></a>
+                <a href=""><span id="femininoheader" class="navbuttons" >Feminino</span></a>
+            </section>
+        </nav>
+        <nav id="headerbuttons">
+            <div class="headright">
+<!-- searchbox que fica no header: -->
+                <input type="text" name="searchbox" id="searchbox" placeholder="Search">
+                <a href=""><span class="material-symbols-outlined" id="searchbutton">search</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="searchresults">
+        <br>          
+          <nav aria-label="breadcrumb" id="breadcrumb">
+            <a href="index.html"><span>Home</span></a>
+            <span>/</span>
+            <a href="tenispage.html" id="homebreadcrumb"><span>Tênis</span></a>
+          </nav>
+    </section>
+    <section id="resulttitle">
+        <h3>Tênis</h3>
+        <p>Aqui você encontra a seleção dos nossos melhores tênis!</p>
+    </section>
+    <section id="filters">
+        <label for="ordenar">Ordenar por:</label> <br>
+        <select name="ordenar" id="ordenar">
+            <option value="">Preço: menor para maior</option>
+            <option value="">Preço: maior para menor</option>
+            <option value="">Nome: de A à Z</option>
+            <option value="">Mais vendidos</option>
+        </select>
+    </section>
+    <section id="tenis">
+        <a href=""><div id="airmax90" class="quadradotenis">
+            <img src="https://artwalk.vteximg.com.br/arquivos/ids/357045-380-380/FD037-4-410-1.jpg?v=638137107741300000" alt="" class="tenisresultimg">
+            <p class="nometenis">TÊNIS NIKE AIR MAX 90 SE MASCULINO</p>
+            <p class="precotenis">R$799,99</p>
+            <p class="dividecartao">ou até 12x de R$68,00</p>
+        </div></a>
+        <a href=""><div id="vanssk8low" class="quadradotenis">
+            <img src="https://artwalk.vteximg.com.br/arquivos/ids/229645-1000-1000/Tenis-Vans-Sk8-Low-Preto.jpg?v=637457284446300000" alt="" class="tenisresultimg">
+            <p class="nometenis">TÊNIS VANS SK8-LOW</p>
+            <p class="precotenis">R$399,99</p>
+            <p class="dividecartao">ou até 12x de R$35,00</p>
+        </div></a>
+        <a href=""><div id="forumlow" class="quadradotenis">
+            <img src="https://artwalk.vteximg.com.br/arquivos/ids/394921-1000-1000/IE478-8-001-1.jpg?v=638195264062030000" alt="" class="tenisresultimg">
+            <p class="nometenis">TÊNIS ADIDAS FORUM LOW MASCULINO</p>
+            <p class="precotenis">R$699,99</p>
+            <p class="dividecartao">ou até 10x de R$69,99</p>
+        </div></a>
+        <a href=""><div id="kdtrey5x" class="quadradotenis">
+            <img src="https://artwalk.vteximg.com.br/arquivos/ids/375967-1000-1000/DD953-8-009-1.jpg?v=638173641008670000" alt="" class="tenisresultimg">
+            <p class="nometenis">TÊNIS NIKE KD TREY 5 X</p>
+            <p class="precotenis">R$749,99</p>
+            <p class="dividecartao">ou até 10x de R$74,99</p>
+        </div></a>
+        <a href=""><div id="newbalance" class="quadradotenis">
+            <img src="https://artwalk.vteximg.com.br/arquivos/ids/373477-1000-1000/B50VT-B-100-1.jpg?v=638169178562700000" alt="" class="tenisresultimg">
+            <p class="nometenis">TÊNIS NEW BALANCE 550 MASCULINO</p>
+            <p class="precotenis">R$999,99</p>
+            <p class="dividecartao">ou até 10x de R$99,99</p>
+        </div></a>
+        <a href="pagcompra.html"><div id="sk8hi" class="quadradotenis">
+            <img src="vans sk8 hi.png" alt="" class="tenisresultimg">
+            <p class="nometenis">VANS SK8-HI BLACK BLACK WHITE</p>
+            <p class="precotenis">R$599,99</p>
+            <p class="dividecartao">ou até 10x de R$59,99</p>
+        </div></a>
+
+    </section>
